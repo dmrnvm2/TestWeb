@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mervienibasStils.css">
+    </head>
+    <h1>Informācijas daudzuma mērvienības</h1>
+    <body>
+        <form>
+            <input type="text" name="n">
+            <p>GB=</p>
+            <input type="button" value="Izteikt megabaitos" onclick="res1.value=n.value*1000">
+            <input type="text" name="res1">
+            <p>MB</p>
+            <input type="button" value="Izteikt mibibaitos" onclick="res2.value=n.value*(10**9)/(2**20)">
+            <input type="text" name="res2">
+            <p>MiB</p>
+        </form>
+    </body>
+</html>
